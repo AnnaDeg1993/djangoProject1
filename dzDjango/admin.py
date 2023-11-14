@@ -1,3 +1,6 @@
 from django.contrib import admin
 
-# Register your models here.
+from dzDjango.models import ModelAnna
+
+
+admin.site.register(ModelAnna)
